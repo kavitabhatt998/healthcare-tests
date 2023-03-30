@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-- task: katalonTask
+- task: katalonTask@1
   inputs:
     version: '8.5.4'
     location: '8.5.4'
