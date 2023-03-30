@@ -11,7 +11,7 @@ pool:
   inputs:
     version: '8.5.4'
     location: '8.5.4'
-    executeArgs: '-testSuiteCollectionPath="Test Suites/healthcare-tests - TS_RegressionTestCollection" -orgID=743630 --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -apiKey="e87a86ff-ddcf-4a26-94d0-a3994ce26216"'
+    executeArgs: '-retry=0 -testSuiteCollectionPath="Test Suites/healthcare-tests - TS_RegressionTestCollection" -orgID=743630 --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -apiKey="e87a86ff-ddcf-4a26-94d0-a3994ce26216"'
   vmImage: ubuntu-latest
 
 steps:
